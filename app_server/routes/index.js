@@ -9,8 +9,8 @@ router.get('/', ctrlMain.index);
 
 /* GET the about pages */
 router.get('/about', ctrlAbout.about);
-router.get('/about/contact', ctrlAbout.contact);
-router.get('/about/projects', ctrlAbout.projects);
+router.get('/contact', ctrlAbout.contact);
+router.get('/projects', ctrlAbout.projects);
 
 
 

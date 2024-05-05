@@ -4,17 +4,17 @@
 
 // Controller for the about page. 
 const about = (req, res) => {
-    res.render('index', {title: 'about'});
+    res.render('about', {title: 'about'});
 };
 
 // Controller for the contact page.
 const contact = (req, res) => {
-    res.render('index', {title: 'contact'});
+    res.render('contact', {title: 'contact'});
 };
 
 // Controller for the projects page.
 const projects = (req, res) => {
-    res.render('index', {title: 'projects'});
+    res.render('projects', {title: 'projects'});
 }
 
 module.exports = {
