@@ -12,3 +12,14 @@ p {
 a {
   color: #00B7FF;
 }
+.nav-link {
+  color:#010000;
+  transition: color 0.1s ease, background-color 0.1s ease;
+}
+
+.nav-link:hover { 
+  color: #fcfafa !important;
+  background-color: #010102;
+  text-decoration: none;
+}
+
