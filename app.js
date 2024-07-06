@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-//Here we ue bootstrap
+//Here we use bootstrap
 app.use('/css', express.static(path.join(__dirname, 'public', 'stylesheets')));
 
 //Here the bootstrap js file is used
