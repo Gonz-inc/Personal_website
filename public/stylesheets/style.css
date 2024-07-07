@@ -42,7 +42,7 @@ a {
 /* Here the background was added and set for the index page.*/
 body.index-page{
   background-image: url('/images/background.png');
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -72,9 +72,15 @@ body.index-page .lead, body.index-page p {
   background-color: rgba(32, 32, 32, 0.599); /* Semi-transparent background */
   padding: 20px; /* Padding inside the box */
   border-radius: 10px; /* Rounded corners */
-  display: inline-block; /* Shrink-wrap the box around the text */
   max-width: 100%; /* Ensure the box doesn't exceed the width of the container */
-  margin: -20px 90px; /* Center the box horizontally */
+  margin-top: 20%;
+}
+
+.secondary-text-box {
+  background-color: rgba(32, 32, 32, 0.599); /* Semi-transparent background */
+  padding: 20px; /* Padding inside the box */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 100%; /* Ensure the box doesn't exceed the width of the container */
 }
 
 .b-example-divider {
