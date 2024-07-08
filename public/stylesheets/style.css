@@ -1,6 +1,7 @@
 body {
-  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: rgb(63, 59, 58);
+  margin-top: 20px;
 }
 
 /* Here we control the color of the headers throughout the rest of the page. */
@@ -15,17 +16,13 @@ p {
   color: rgb(240, 240, 240);
 }
 
-a {
-  color: #00B7FF;
-}
-
 .navbar {
   margin-bottom: 3px;
   padding: 5px 20px;
 }
 
 .navbar-brand img {
-  height: 30px;
+  height: 20px;
   width: auto;
 }
 .nav-link {
@@ -73,7 +70,8 @@ body.index-page .lead, body.index-page p {
   padding: 20px; /* Padding inside the box */
   border-radius: 10px; /* Rounded corners */
   max-width: 100%; /* Ensure the box doesn't exceed the width of the container */
-  margin-top: 20%;
+  margin-top: 30%;
+  margin-right: -60px;
 }
 
 .secondary-text-box {
