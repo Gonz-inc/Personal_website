@@ -121,3 +121,14 @@ body.index-page .lead, body.index-page p {
   background-color: rgb(220, 110, 10);
   border-color: black;
 }
+
+.centered-card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.centered-card .card {
+  width: 27rem;
+  margin: auto;
+}
