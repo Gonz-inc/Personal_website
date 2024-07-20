@@ -1,12 +1,134 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 21px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(63, 59, 58);
+  margin-top: 20px;
 }
 
+/* Here we control the color of the headers throughout the rest of the page. */
+body h1, h4{
+  color: #ffffff;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
 p {
-  color: red;
+  color: rgb(240, 240, 240);
 }
 
-a {
-  color: #00B7FF;
+.navbar {
+  margin-bottom: 3px;
+  padding: 5px 20px;
+}
+
+.navbar-brand img {
+  height: 20px;
+  width: auto;
+}
+.nav-link {
+  color:#ffffff;
+  transition: color 0.1s ease, background-color 0.1s ease;
+}
+
+.nav-link:hover { 
+  color: rgb(244, 152, 32)!important;
+  background-color: #ffffff00;
+  text-decoration: underline;
+}
+
+/* Here the background was added and set for the index page.*/
+body.index-page{
+  background-image: url('/images/background.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Ensure text is visible and positioned correctly on index page */
+body.index-page h1 {
+  color: rgb(244, 152, 32); /* Change text color to match marigolds */
+  position: relative;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a shadow for better readability */
+}
+
+body.index-page .index-container {
+  padding-top: 100px; /* Adjust padding to lower the content */
+  display: grid; /* Use flexbox layout */
+  justify-content: right; /* Align items to the right */
+}
+
+body.index-page .lead, body.index-page p {
+  color: white; /* Ensure all paragraph text is white */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a shadow for better readability */
+}
+
+.text-box {
+  background-color: rgba(32, 32, 32, 0.599); /* Semi-transparent background */
+  padding: 20px; /* Padding inside the box */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 100%; /* Ensure the box doesn't exceed the width of the container */
+  margin-top: 30%;
+  margin-right: -60px;
+}
+
+.secondary-text-box {
+  background-color: rgba(32, 32, 32, 0.599); /* Semi-transparent background */
+  padding: 20px; /* Padding inside the box */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 100%; /* Ensure the box doesn't exceed the width of the container */
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bg-custom-color {
+  width: 100%;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.img-bordered {
+  border: 3px solid rgb(244, 152, 32);
+  border-radius: 12px;
+  padding: 1px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.btn-primary {
+  background-color: rgb(244, 152, 32);
+  border-color: black;
+}
+
+.btn:hover {
+  background-color: rgb(220, 110, 10);
+  border-color: black;
+}
+
+.centered-card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.centered-card .card {
+  width: 27rem;
+  margin: auto;
 }

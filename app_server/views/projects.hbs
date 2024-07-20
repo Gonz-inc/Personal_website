@@ -1,0 +1,90 @@
+{{!-- Extend the layout template --}}
+{{> layout}}    
+
+{{!-- Extend the header layout template--}}
+{{> header}}
+
+{{!-- Provide content for the body --}}
+{{!-- Main section of the body --}}
+
+<main>
+    <section class = "py-5 text-center container">
+        <div class = "row py-lg-5">
+            <div class = "col-lg-6 col-md-8 mx-auto">
+                <h1 class= "fw-light"> Projects </h1>
+                <p class = "lead text-body-secondary-light ">
+                    Explore my portfolio of projects, showcasing the skills I learned as a full-stack development student.
+                </p>
+                <p>
+                    <a href="https://github.com/Gonz-inc" class = "btn btn-primary my-2">GitHub</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+<div class = "album py-5 bg-custom-color">
+    <div class = "container">
+        <div class = "row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            
+            <div class = "col">
+                <div class = "card shadow-sm bg-dark">
+                    <img src= "/images/openGL.png"  class="bd-placeholder-img card-img-top " alt="Project Thumbnail"  style="width: 100%; height: 250px; object-fit:fill">
+                    <div class = "card-header" style="color: white;"> 
+                        <h4>OpenGL Project</h3>
+                    </div>
+                    <div class= "card-body">
+                        <p class = "card-text">In this project I used API, abstract classes, to structure code and make meshes, textures, and shaders to create a 3D scene inspired by real world objects.</p>
+                        <div class = "d-flex justify-content-between align-items-center">
+                            <div class = "btn-group">
+                                <a type="button" class = "btn btn-sm btn-outline-secondary" href="https://github.com/Gonz-inc/CS_330_OpenGL_Project.git">View</a>
+                            </div>
+                            <small class="text-body-secondary text-white">On going</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "col">
+                <div class = "card shadow-sm bg-dark">
+                    <img src= "/images/Travlr.png"  class="bd-placeholder-img card-img-top " alt="Project Thumbnail" style="width: 100%; height: 250px; object-fit:fill">
+                    <div class = "card-header" style="color: white;"> 
+                        <h4>Full-Stack Development 1</h3>
+                    </div>
+                    <div class= "card-body">
+                        <p class = "card-text">This project showcases my fullstack development skills by using Node.js, Express, Angular, and MongoDB to create
+                            a web application that lets travelers explore destinations. 
+                        </p>
+                        <div class = "d-flex justify-content-between align-items-center">
+                            <div class = "btn-group">
+                                <a type="button" class = "btn btn-sm btn-outline-secondary" href = "https://github.com/Gonz-inc/CS_465.git">View</a>
+                            </div>
+                            <small class="text-body-secondary text-white">On going</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "col">
+                <div class = "card shadow-sm bg-dark">
+                    <img src= "/images/AWS.png"  class="bd-placeholder-img card-img-top " alt="Project Thumbnail" style="width: 100%; height: 250px; object-fit:fill">
+                    <div class = "card-header" style="color: white;"> 
+                        <h4>Full-Stack Development 2</h3>
+                    </div>
+                    <div class= "card-body">
+                        <p class = "card-text">In this project I took an Angular web project and migrated it to AWS. I used tools such as Lambda, DynamoDB, S3, IAM to make a cloud native web application.</p>
+                        <div class = "d-flex justify-content-between align-items-center">
+                            <div class = "btn-group">
+                                <a type="button" class = "btn btn-sm btn-outline-secondary" href = "https://github.com/Gonz-inc/CS-470.git">View</a>
+                            </div>
+                            <small class="text-body-secondary text-white">On going</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    
+</main>
